@@ -7,6 +7,11 @@
 include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/image.mk
 
+
+define Build/prepend-to
+    dd bs=1 seek=$(1) if=$@ of=$@.new && mv $@.new $@
+endef
+
 define imgname
 $(BIN_DIR)/$(IMG_PREFIX)-$(2)-$(1)
 endef
@@ -1013,11 +1018,23 @@ endef
 
 Image/Build/Profile/MT7628=$(call BuildFirmware/Default4M/$(1),$(1),mt7628,MT7628)
 Image/Build/Profile/VOCORE2=$(call BuildFirmware/Default16M/$(1),$(1),vocore2,VOCORE2)
+Image/Build/Profile/WR840NV4=$(call BuildFirmware/Default8M/$(1),$(1),wr840nv4,WR840NV4)
+
+define Device/WR840NV4
+  DTS := WR840NV4
+  IMAGE_SIZE := 7808k
+  DEVICE_TITLE := WR840NV4
+  DEVICE_PACKAGES :=
+  KERNEL := $(KERNEL_DTB) | prepend-to 448 | uImage lzma
+endef
+
+TARGET_DEVICES += WR840NV4
 
 ifeq ($(SUBTARGET),mt7628)
 define Image/Build/Profile/Default
 	$(call Image/Build/Profile/MT7628,$(1))
 	$(call Image/Build/Profile/VOCORE2,$(1))
+	$(call Image/Build/Profile/WR840NV4,$(1))
 endef
 endif
 

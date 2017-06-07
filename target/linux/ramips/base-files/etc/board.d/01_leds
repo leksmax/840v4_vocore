@@ -191,6 +191,11 @@ case $board in
 	sl-r7205)
 		set_wifi_led "rt2800pci-phy0::radio"
 		;;
+	WR840NV4)
+		set_wifi_led "$board:green:wireless"
+		ucidef_set_led_switch "lan" "lan" "$board:green:lan" "switch0.1" "0x1e"
+		ucidef_set_led_switch "wan" "wan" "$board:green:wan" "switch0.2" "0x01"
+		;;
 	v11st-fe)
 		set_wifi_led "rt2800pci-phy0::radio"
 		;;

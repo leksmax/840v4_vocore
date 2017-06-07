@@ -2,6 +2,10 @@
 # MT7628 Profiles
 #
 
+define Build/prepend-to
+    dd bs=1 seek=$(1) if=$@ of=$@.new && mv $@.new $@
+endef
+
 define Device/mt7628
   DTS := MT7628
   IMAGE_SIZE := $(ralink_default_fw_size_4M)
@@ -33,3 +37,14 @@ define Device/wrtnode2p
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci kmod-ledtrig-usbdev
 endef
 TARGET_DEVICES += wrtnode2p
+
+define Device/tl-wr840n-v4
+  DTS := TL-WR840NV4
+  IMAGE_SIZE := 7808k
+  DEVICE_TITLE := TP-Link TL-WR840N v4
+  DEVICE_PACKAGES :=
+  KERNEL := $(KERNEL_DTB) | prepend-to 448 | uImage lzma
+  IMAGES += factory.bin
+  IMAGE/factory.bin := pad-extra 131072 | $$(sysupgrade_bin)
+endef
+TARGET_DEVICES += tl-wr840n-v4

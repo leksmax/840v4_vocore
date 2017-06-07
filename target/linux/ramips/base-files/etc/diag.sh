@@ -170,6 +170,9 @@ get_status_led() {
 	vocore)
 		status_led="vocore:green:status"
 		;;
+	WR840NV4)
+                status_led="tl-wr840nv4:green:power"
+                ;;
 	w306r-v20)
 		status_led="w306r-v20:green:sys"
 		;;

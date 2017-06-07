@@ -364,6 +364,9 @@ ramips_board_detect() {
 	*"TEW-692GR")
 		name="tew-692gr"
 		;;
+	*"TP-LINK TL-WR840N v4")
+		name="WR840NV4"
+		;;
 	*"Ralink V11ST-FE")
 		name="v11st-fe"
 		;;
