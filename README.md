@@ -1,6 +1,8 @@
+```
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQ7FWMZLJUFEQ)
+```
 [Яндекс.Деньги](https://money.yandex.ru/to/410014027691291)
-
+````
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated
