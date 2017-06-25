@@ -33,7 +33,7 @@ the lack of case sensitiveness in the file system.
 это  первый  форк  драйверов  видоры  
 здесь  не  работает   отображение  в   вебе  подулюченных  устройств  по  вифи-  скоро починю
 здесь  мак  при  старте   рандомный- скоро починую
-```
+
 ## Donation
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
 
