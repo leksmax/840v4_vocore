@@ -32,6 +32,7 @@ To build your own firmware you need to have access to a Linux, BSD or MacOSX sys
 (case-sensitive filesystem required). Cygwin will not be supported because of
 the lack of case sensitiveness in the file system.
 
+<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=410014027691291&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets=%D1%81+%D0%B3%D0%B8%D1%82%D0%B0++%D0%BD%D0%B0++%D0%BF%D0%B8%D0%B2%D0%BE&targets-hint=&default-sum=&button-text=01&successURL=" width="450" height="198"></iframe>
 
 это  первый  форк  драйверов  видоры  
 здесь  не  работает   отображение  в   вебе  подулюченных  устройств  по  вифи-  скоро починю
