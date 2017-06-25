@@ -1,7 +1,4 @@
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQ7FWMZLJUFEQ)
-
-[![Яндекс.Деньги]https://money.yandex.ru/img/wallet-50x50.gif](https://money.yandex.ru/to/410014027691291)
 
 This is the buildsystem for the OpenWrt Linux distribution.
 
@@ -32,13 +29,17 @@ To build your own firmware you need to have access to a Linux, BSD or MacOSX sys
 (case-sensitive filesystem required). Cygwin will not be supported because of
 the lack of case sensitiveness in the file system.
 
-<iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=410014027691291&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets=%D1%81+%D0%B3%D0%B8%D1%82%D0%B0++%D0%BD%D0%B0++%D0%BF%D0%B8%D0%B2%D0%BE&targets-hint=&default-sum=&button-text=01&successURL=" width="450" height="198"></iframe>
-
-это  первый  форк  драйверов  видоры  
+это  первый  форк  драйверов  видоры 
+==============================================
 здесь  не  работает   отображение  в   вебе  подулюченных  устройств  по  вифи-  скоро починю
+==============================================
 здесь  мак  при  старте   рандомный- скоро починую
-
+==============================================
 ## Donation
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
 
-[![paypal](https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQ7FWMZLJUFEQ)
+ на  пиво автору сюда )
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QQ7FWMZLJUFEQ)
+[![Яндекс.Деньги](https://money.yandex.ru/img/wallet-50x50.gif)](https://money.yandex.ru/to/410014027691291)
+[![bitcoin](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJOqM1OjenvwwdJP-34ivppNyO0fh2ggBXFo6xux2iPejVVseMgQ)](15T2S3SLDjE9n67rwr5A1WCxvMqirfnV9K)
