@@ -30,18 +30,6 @@ To build your own firmware you need to have access to a Linux, BSD or MacOSX sys
 the lack of case sensitiveness in the file system.
 
 
-Sunshine!
-	Your OpenWrt Project
-	http://openwrt.org
-	
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QQ7FWMZLJUFEQ">
-<input type="image" src="https://www.paypalobjects.com/ru_RU/RU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal — более безопасный и легкий способ оплаты через Интернет!">
-<img alt="" border="0" src="https://www.paypalobjects.com/ru_RU/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-
 это  первый  форк  драйверов  видоры  
 здесь  не  работает   отображение  в   вебе  подулюченных  устройств  по  вифи-  скоро починю
 здесь  мак  при  старте   рандомный- скоро починую
